@@ -1,0 +1,32 @@
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/image/footer-bg.jpeg') center/cover no-repeat;
+  padding: 60px 0;
+}
+
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  min-height: 30vh;
+}
+
+.title{
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.item{
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  &:not(:last-child){
+    margin-bottom: 10px;
+  }
+}
+

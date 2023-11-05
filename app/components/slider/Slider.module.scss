@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnNext {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btnNext {
+  z-index: 2;
+  right: -10%;
+  bottom: 60%;
+}
