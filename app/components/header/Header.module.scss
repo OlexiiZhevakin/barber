@@ -32,7 +32,7 @@
     position: absolute;
     left: 0;
     height: 6px;
-    width: 60px;
+    width: 100%;
     transition: all 0.3s ease 0s;
     background-color: #fff;
   }
@@ -51,8 +51,73 @@
   }
 
   span {
-    width: 60px;
+    // width: 60px;
     top: 50%;
     transform: scale(1) translate(0, -50%);
+  }
+}
+
+@media (min-width: 1440px) {
+  /* Ваши стили для больших десктопных экранов */
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Ваши стили для средних десктопных экранов */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Ваши стили для небольших десктопных экранов */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Ваши стили для планшетов */
+  .logo{
+    width: 200px;
+    height: 100px;
+  }
+
+  .btn,
+  .phone{
+    width: 40px;
+    height: 40px;
+    span{
+      width: 40px;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Ваши стили для средних устройств */
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+
+  .btn,
+  .phone {
+    width: 40px;
+    height: 40px;
+
+    span {
+      width: 40px;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  /* Ваши стили для очень маленьких устройств */
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+
+  .btn,
+  .phone {
+    width: 40px;
+    height: 40px;
+
+    span {
+      width: 40px;
+    }
   }
 }

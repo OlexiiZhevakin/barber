@@ -14,7 +14,7 @@ const Header = () => {
             <Image className={styles.logo} src='/image/logo.svg' alt='Логотип сайту' width={263} height={148}/>
           </Link>
           <Link href='tel:00000000'>
-            <Image src='/image/phone.svg' alt='Кнопка телефона' width={69} height={69}/>
+            <Image className={styles.phone} src='/image/phone.svg' alt='Кнопка телефона' width={69} height={69}/>
           </Link>
         </div>
       </div>

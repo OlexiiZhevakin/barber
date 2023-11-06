@@ -8,7 +8,6 @@ const About = () => {
       <div className="container">
         <div className={styles.wrapper}>
           <Image className={styles.img} src='/image/about.jpg' alt='Картинка про нас' width={480} height={700}/>
-          <div className={styles.content}>
             <div className={styles.info}>
               <h2 className={styles.title}>
                 Про нас
@@ -27,11 +26,12 @@ const About = () => {
                   Приходь, адже Старий Голландець уже чекає на тебе поспілкуватися і зігрітися якісним алкоголем, доки досвідчені майстри працюють над твоїм стильним образом.
                 </p>
               </div>
-            </div>
-            <Button className={styles.btn} href='#'>
-              Записатися
-            </Button>
           </div>
+        </div>
+        <div className={styles.btn}>
+          <Button href='#'>
+            Записатися
+          </Button>
         </div>
       </div>
     </section>

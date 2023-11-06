@@ -21,3 +21,30 @@
   text-align: center;
   padding-bottom: 65px;
 }
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Ваши стили для планшетов */
+  .title{
+    font-size: 44px;  
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Ваши стили для средних устройств */
+  .title {
+    font-size: 34px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  /* Ваши стили для очень маленьких устройств */
+  .title {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+}

@@ -32,3 +32,49 @@
   right: -10%;
   bottom: 60%;
 }
+
+@media (min-width: 1440px) {
+  /* Ваши стили для больших десктопных экранов */
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Ваши стили для средних десктопных экранов */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Ваши стили для небольших десктопных экранов */
+  .btnNext {
+    z-index: 2;
+    right: 2%;
+    bottom: 60%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  /* Ваши стили для планшетов */
+  .btnNext {
+    z-index: 2;
+    right: 50%;
+    bottom: 60%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Ваши стили для средних устройств */
+  .btnNext {
+    z-index: 2;
+    right: 6%;
+    bottom: 60%;
+  }
+}
+
+@media (max-width: 479px) {
+  /* Ваши стили для очень маленьких устройств */
+  .btnNext {
+    z-index: 2;
+    right: 0;
+    bottom: 60%;
+  }
+}

@@ -9,7 +9,6 @@ const Services = () => {
       <div className="container">
         <Title title={'h2'}>Послуги</Title>
         <div className={styles.wrapper}>
-          <div className={styles.content}>
             <div className={styles.certificate}>
               Тут будет сертификат
             </div>
@@ -22,10 +21,13 @@ const Services = () => {
                 </li>
               ))}
             </ul>
-          </div>
-          <Button className={styles.btn} href='#'>Записатися</Button>
+          
         </div>
-        
+        <div className={styles.btn}>
+          <Button href='#'>
+            Записатися
+          </Button>
+        </div>
       </div>
     </section>
   )

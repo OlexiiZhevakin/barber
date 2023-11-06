@@ -19,3 +19,42 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@media (min-width: 1440px) {
+  /* Ваши стили для больших десктопных экранов */
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Ваши стили для средних десктопных экранов */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Ваши стили для небольших десктопных экранов */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Ваши стили для планшетов */
+  .btn{
+    justify-content: center;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Ваши стили для средних устройств */
+  .wrapper{
+    font-size: 24px;
+  }
+  .btn{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 479px) {
+  /* Ваши стили для очень маленьких устройств */
+  .wrapper {
+    font-size: 24px;
+  }
+  .btn{
+    justify-content: center;
+  }
+}
