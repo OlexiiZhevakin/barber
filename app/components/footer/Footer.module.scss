@@ -1,13 +1,18 @@
 .footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/image/footer-bg.jpeg') center/cover no-repeat;
+  background: url('/image/footer-bg.jpg') center/cover no-repeat;
   padding: 60px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 
 .wrapper{
   display: flex;
   justify-content: space-between;
-  min-height: 30vh;
+  gap: 100px;
+  // min-height: 30vh;
+
 }
 
 .title{
