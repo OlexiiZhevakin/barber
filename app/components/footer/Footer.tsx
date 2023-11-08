@@ -14,7 +14,7 @@ const Footer = () => {
               <h3 className={styles.subtitle}>
                 Адреса
               </h3>
-              <a className={styles.link} target='_blanck' href="https://www.google.com/maps/search/?api=1&query=Котляревського,15 Полтава">Котляревського, 15 Полтава</a>
+              <a className={styles.link} target='_blanck' href="https://www.google.com.ua/maps/place/%D0%91%D0%B0%D1%80%D0%B1%D0%B5%D1%80%D1%88%D0%BE%D0%BF+Old+Dutch+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0/@49.5867417,34.5555208,15z/data=!4m6!3m5!1s0x40d82f5f9ec2effb:0x94856ad1e0086c18!8m2!3d49.5867321!4d34.5555633!16s%2Fg%2F11c2qf890d?entry=ttu">Котляревського, 15 Полтава</a>
             </div>
 
             <div className={styles.block}>
@@ -40,10 +40,10 @@ const Footer = () => {
             </div>
             <div className={styles.block}>
               <div className={styles.socials}>
-                <a className={styles.social} href="#">
+                <a className={styles.social} href="https://www.facebook.com/old.dutch.barbeshop/">
                   <Image src='/image/icons/facebook.svg' alt='Соціальної мережі значок Facebook' width={50} height={50} />
                 </a>
-                <a className={styles.social} href="#">
+                <a className={styles.social} href="https://www.instagram.com/old.dutch.plt/">
                   <Image src='/image/icons/instagram.svg' alt='Соціальної мережі значок Instagram' width={50} height={50} />
                 </a>
               </div>

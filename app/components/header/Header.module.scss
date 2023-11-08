@@ -4,7 +4,8 @@
   width: 100%;
   z-index: 10;
   padding: 15px 0;
-  background: transparent;
+  background-color: rgba(37, 37, 37, 0.77);
+  backdrop-filter: blur(2.5px);
   border-bottom: 2px solid #fff;
 }
 
