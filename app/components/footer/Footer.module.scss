@@ -1,21 +1,34 @@
 .footer {
   background: url('/image/footer-bg.jpg') center/cover no-repeat;
   padding: 60px 0;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+  
+  // display: flex;
+  // align-items: center;
 }
-
 
 .wrapper{
+  // min-height: 100vh;
   display: flex;
   justify-content: space-between;
-  gap: 100px;
-  // min-height: 30vh;
-
 }
 
-.title{
+.block{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 13px; 
+  width: 300px;
+  margin-bottom: 8px;
+}
+
+.schedule{
+  color: #fff;
+  li{
+    &:not(:last-child){
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.subtitle{
   color: #FFF;
   font-size: 22px;
   font-style: normal;
@@ -24,19 +37,26 @@
   margin-bottom: 14px;
 }
 
-.item{
+.phones{
+  display: flex;
+  flex-direction: column;
+}
+
+.store{
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials{
+  display: flex;
+}
+
+.link{
   color: #FFF;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  &:not(:last-child){
-    margin-bottom: 10px;
-  }
-}
-
-.link{
-  color: inherit;
 }
 
 @media (min-width: 1440px) {
@@ -53,45 +73,23 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   /* Ваши стили для планшетов */
-  .footer{
-    display: block;
-  }
-  .wrapper{
-    flex-direction: column;
-    gap: 40px;
-    align-items: center;
-  }
-  .title{
-    text-align: center;
+  .block{
+    max-width: 200px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
   /* Ваши стили для средних устройств */
-  .footer{
-    display: block;
-  }
   .wrapper{
     flex-direction: column;
     gap: 40px;
-    align-items: center;
-  }
-  .title{
-    text-align: center;
   }
 }
 
 @media (max-width: 479px) {
   /* Ваши стили для очень маленьких устройств */
-  .footer{
-    display: block;
-  }
-  .wrapper{
+  .wrapper {
     flex-direction: column;
     gap: 40px;
-    align-items: center;
-  }
-  .title{
-    text-align: center;
   }
 }
