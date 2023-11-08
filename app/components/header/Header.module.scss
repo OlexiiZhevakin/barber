@@ -22,11 +22,15 @@
   transform: translate(-50%, -50%);
 }
 
+
+
+
 .btn {
   position: relative;
   width: 69px;
   height: 39px;
   cursor: pointer;
+  z-index: 2;
   span,
   &::before,
   &::after {
@@ -52,11 +56,70 @@
   }
 
   span {
-    // width: 60px;
     top: 50%;
     transform: scale(1) translate(0, -50%);
   }
 }
+
+.btn.open span {
+  transform: scale(0);
+}
+
+.btn.open::before,
+.btn.open::after {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn.open::before {
+  transform: rotate(45deg) translateY(-50%);
+}
+
+.btn.open::after {
+  transform: rotate(-45deg) translateY(-50%);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  border-right: 1px solid #fff;
+  background-color: rgba(37, 37, 37, 0.77);
+  backdrop-filter: blur(2.5px);
+  // overflow: auto;
+  overflow: hidden;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.menu.open {
+  transform: translateX(0);
+}
+
+
+.item{
+  padding-bottom: 8px;
+  border-bottom: 1px solid #fff;
+}
+
+.item:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.link{
+  color: #FFF;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
 
 @media (min-width: 1440px) {
   /* Ваши стили для больших десктопных экранов */
@@ -103,6 +166,10 @@
       width: 40px;
     }
   }
+
+  .menu{
+    width: 100%;
+  }
 }
 
 @media (max-width: 479px) {
@@ -120,5 +187,8 @@
     span {
       width: 40px;
     }
+  }
+  .menu {
+    width: 100%;
   }
 }

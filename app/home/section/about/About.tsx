@@ -4,7 +4,7 @@ import Button from '@/app/components/button/Button'
 
 const About = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id='about'>
       <div className="container">
         <div className={styles.wrapper}>
           <Image className={styles.img} src='/image/about.jpg' alt='Картинка про нас' width={480} height={700}/>

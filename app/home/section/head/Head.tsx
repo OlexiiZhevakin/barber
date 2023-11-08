@@ -4,7 +4,7 @@ import Button from '@/app/components/button/Button'
 
 const Head = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id='home'>
       <div className="container">
         <div className={styles.wrapper}>
           <h1 className={styles.title}>

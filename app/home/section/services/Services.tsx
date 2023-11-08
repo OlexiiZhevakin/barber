@@ -5,7 +5,7 @@ import Button from '@/app/components/button/Button'
 
 const Services = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id='services'>
       <div className="container">
         <Title title={'h2'}>Послуги</Title>
         <div className={styles.wrapper}>

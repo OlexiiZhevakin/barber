@@ -4,7 +4,7 @@ import Button from '@/app/components/button/Button'
 
 const Rules = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id='rules'>
       <div className="container">
         <Title title={'h2'}>Правила закладу</Title>
         <div className={styles.wrapper}>

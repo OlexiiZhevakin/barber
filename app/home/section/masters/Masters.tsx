@@ -9,7 +9,7 @@ import Button from '@/app/components/button/Button'
 
 const Masters = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id='masters'>
       <div className="container">
         <div className={styles.wrapper}>
           <Title title={'h2'}>Майстри</Title>
