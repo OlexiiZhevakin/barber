@@ -20,9 +20,8 @@
   top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
 }
-
-
 
 
 .btn {
@@ -91,7 +90,6 @@
   border-right: 1px solid #fff;
   background-color: rgba(37, 37, 37, 0.77);
   backdrop-filter: blur(2.5px);
-  // overflow: auto;
   overflow: hidden;
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
@@ -120,6 +118,11 @@
 }
 
 
+.phone{
+  position: relative;
+  z-index: 2;
+}
+
 
 @media (min-width: 1440px) {
   /* Ваши стили для больших десктопных экранов */
@@ -134,6 +137,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
+  .wrapper{
+    flex-direction: row-reverse;
+  }
   /* Ваши стили для планшетов */
   .logo{
     width: 200px;
@@ -152,6 +159,9 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
   /* Ваши стили для средних устройств */
+  .wrapper {
+    flex-direction: row-reverse;
+  }
   .logo {
     width: 200px;
     height: 100px;
@@ -174,6 +184,9 @@
 
 @media (max-width: 479px) {
   /* Ваши стили для очень маленьких устройств */
+  .wrapper {
+    flex-direction: row-reverse;
+  }
   .logo {
     width: 200px;
     height: 100px;

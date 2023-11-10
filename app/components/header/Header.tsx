@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link'
 import styles from './Header.module.scss'
 import Image from 'next/image'
@@ -10,6 +10,17 @@ const Header = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  useEffect(() => {
+    const body = document.querySelector('body');
+    if (body) {
+      if (isOpen) {
+        body.classList.add('lock');
+      } else {
+        body.classList.remove('lock');
+      }
+    }
+  }, [isOpen]);
 
   return (
     <header className={styles.header}>
