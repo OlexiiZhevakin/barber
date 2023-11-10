@@ -50,10 +50,10 @@ const Footer = () => {
             </div>
             <div className={styles.block}>
               <div className={styles.store}>
-                <a className={styles.link} href="#">
+                <a className={styles.link} href="https://play.google.com/store/apps/details?id=com.yclients.mobile.g38094">
                   <Image src='/image/icons/play-market.svg' alt='Значок магазину додатку Google play market' width={120} height={40} />
                 </a>
-                <a className={styles.link} href="#">
+                <a className={styles.link} href="https://apps.apple.com/ua/app/old-dutch-barbershop/id1552278684?l=uk">
                   <Image src='/image/icons/app-store.svg' alt='Значок магазину додатку Apple App Store' width={120} height={40} />
                 </a>
               </div>
