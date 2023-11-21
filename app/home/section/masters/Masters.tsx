@@ -22,7 +22,7 @@ const Masters = () => {
                       <Image className={styles.image} src={slide.image} alt={slide.name} width={268} height={398} priority />
                       <div className={styles.content}>
                         <p className={styles.author}>{slide.name}</p>
-                        <Button href='#'>Записатися</Button>
+                        <Button href='https://b131271.alteg.io/select-city/520/select-branch?referrer=https:%2F%2Fold-dutch.com.ua%2F&o='>Записатися</Button>
                       </div>
                     </div>
                   </SwiperSlide>

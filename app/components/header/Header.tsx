@@ -30,10 +30,10 @@ const Header = () => {
             <span></span>
           </div>
           <Link href='/'>
-            <Image className={styles.logo} src='/image/logo.svg' alt='Логотип сайту' width={263} height={148} />
+            <Image className={styles.logo} src='/image/logo.svg' alt='Логотип сайту' width={200} height={80} />
           </Link>
           <Link href='tel:00000000'>
-            <Image className={styles.phone} src='/image/phone.svg' alt='Кнопка телефона' width={69} height={69} />
+            <Image className={styles.phone} src='/image/phone.svg' alt='Кнопка телефона' width={40} height={40} />
           </Link>
         </div>
         <nav className={`${styles.menu} ${isOpen ? styles.open : ''}`}>

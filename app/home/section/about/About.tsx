@@ -29,7 +29,7 @@ const About = () => {
           </div>
         </div>
         <div className={styles.btn}>
-          <Button href='#'>
+          <Button href='https://b131271.alteg.io/select-city/520/select-branch?referrer=https:%2F%2Fold-dutch.com.ua%2F&o='>
             Записатися
           </Button>
         </div>

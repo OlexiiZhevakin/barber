@@ -2,6 +2,7 @@ import Title from '@/app/components/title/Title'
 import styles from './Services.module.scss'
 import { priceData } from './data'
 import Button from '@/app/components/button/Button'
+import Image from 'next/image'
 
 const Services = () => {
   return (
@@ -10,7 +11,8 @@ const Services = () => {
         <Title title={'h2'}>Послуги</Title>
         <div className={styles.wrapper}>
             <div className={styles.certificate}>
-              Тут будет сертификат
+              <Image src='/image/service/card-1.jpg' alt='Фото подарункової карти' width={400} height={280}/>
+            <Image src='/image/service/card-2.jpg' alt='Фото подарункової карти' width={400} height={280} />
             </div>
             <ul className={styles.list}>
               {priceData.map(item => (
@@ -24,7 +26,7 @@ const Services = () => {
           
         </div>
         <div className={styles.btn}>
-          <Button href='#'>
+          <Button href='https://b131271.alteg.io/select-city/520/select-branch?referrer=https:%2F%2Fold-dutch.com.ua%2F&o='>
             Записатися
           </Button>
         </div>

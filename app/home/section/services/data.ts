@@ -2,7 +2,7 @@ export const priceData = [
   {
     "id": 1,
     "name": "Чоловіча стрижка",
-    "price": 350
+    "price": 250
   },
   {
     "id": 2,
@@ -12,12 +12,12 @@ export const priceData = [
   {
     "id": 3,
     "name": "Стрижка бороди",
-    "price": 250
+    "price": 100
   },
   {
     "id": 4,
     "name": "Гоління",
-    "price": 500
+    "price": 250
   },
   {
     "id": 5,
@@ -27,7 +27,7 @@ export const priceData = [
   {
     "id": 6,
     "name": "Батько + Син (діти до 12 років)",
-    "price": 600
+    "price": 550
   },
   {
     "id": 7,
