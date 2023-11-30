@@ -145,4 +145,17 @@
     flex-direction: column;
     gap: 40px;
   }
+  .store {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .inner {
+    flex-direction: column;
+
+    ul {
+      flex-direction: column;
+      padding: 30px 0;
+    }
+  }
 }
