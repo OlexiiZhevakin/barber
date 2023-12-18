@@ -1,0 +1,155 @@
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+
+.bottom{
+  padding: 46px 0;
+  border-top: 1px solid #fff;
+}
+
+.inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul{
+    display: flex;
+    gap: 30px;
+  }
+}
+
+
+
+.schedule{
+  color: #fff;
+  list-style: disc;
+  margin-left: 30px;
+  li{
+    &:not(:last-child){
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.list{
+  margin-left: 30px;
+  list-style: disc;
+  color: #fff;
+  &:not(:last-child){
+    margin-bottom: 30px;
+  }
+}
+
+.adressa{
+  padding-bottom: 30px;
+}
+
+.subtitle,
+.oferta{
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.oferta{
+  display: block;
+}
+
+
+.text{
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+.phones{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.store{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.socials{
+  display: flex;
+  gap: 30px;
+}
+
+.link{
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1440px) {
+  /* Ваши стили для больших десктопных экранов */
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Ваши стили для средних десктопных экранов */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Ваши стили для небольших десктопных экранов */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Ваши стили для планшетов */
+  .block{
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Ваши стили для средних устройств */
+  .wrapper{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .store{
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .inner{
+    flex-direction: column;
+    ul{
+      flex-direction: column;
+      padding: 30px 0;
+    }
+  }
+
+}
+
+@media (max-width: 479px) {
+  /* Ваши стили для очень маленьких устройств */
+  .wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .store {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .inner {
+    flex-direction: column;
+
+    ul {
+      flex-direction: column;
+      padding: 30px 0;
+    }
+  }
+}

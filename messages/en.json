@@ -1,0 +1,79 @@
+{
+  "Head": {
+    "title": "Book a barbershop appointment without leaving home",
+    "btn": "sign up"
+  },
+  "About": {
+    "title": "ABOUT US",
+    "text1": "Who is the Old Dutch? This is the one who always knows what real men need.",
+    "text2": "A stylish haircut, made by professional barbers is just the top of an iceberg and the visible result; and only you know that you really feel yourself rested, spending time in our barbershop “Old Dutch”. Relaxed atmosphere, good music, only male conversations and a glass of an excellent whiskey are what every man needs from time to time.",
+    "text3": "Our barbershop “Old Dutch” have been opened since 2016 and you can always find us in Poltava and Cherkassy.",
+    "text4": "Come, the Old Dutch is waiting for you to hang out, get warm with a high-quality alcohol while experienced artists will be working on your style.",
+    "text5": "years of experience",
+    "text6": "customers",
+    "text7": "services rendered",
+    "btn": "sign up"
+  },
+  "Masters": {
+    "title": "Masters",
+    "btn": "sig up",
+    "master1": "Ambassador Yevhen",
+    "master2": "Ambassador Mykola",
+    "master3": "Top barber Roman",
+    "master4": "Senior barber Volodymyr",
+    "master5": "Senior barber Yevhen",
+    "master6": "Senior barber David",
+    "master7": "Senior barber Andriy",
+    "master8": "Senior barber Serhiy",
+    "master9": "Senior barber Maksym",
+    "master10": "Barber Oleksiy",
+    "Cherkasy": {
+      "master1": "Barber Denis",
+      "master2": "Senior barber Sasha",
+      "master3": "Senior barber Alexander",
+      "master4": "Top barber Sergey",
+      "master5": "Ambassador Maxim"
+    }
+  },
+  "Services": {
+    "title": "Services",
+    "from": "from",
+    "haircut": "Men's haircut",
+    "haircut_beard": "Haircut + beard",
+    "beard_trim": "Haircut of a beard",
+    "shaving": "Shaving",
+    "child_haircut": "Children's haircut (children under 12 years old)",
+    "father_son": " Father + Son (children under 12 years old)",
+    "daily_styling": "Daily styling",
+    "btn": "sign up"
+  },
+  "Gallery": {
+    "title": "Gallery"
+  },
+  "Contacts": {
+    "title": "Contacts",
+    "subtitle1": "Address",
+    "text1": "Kotlyarevsky, 15 Poltava",
+    "text2": "Oleksandra Oksanchenko, 6",
+    "subtitle2": "Work schedule:",
+    "grafic1": "mon",
+    "grafic2": "tue",
+    "grafic3": "wed",
+    "grafic4": "thu",
+    "grafic5": "fri",
+    "grafic6": "sat",
+    "grafic7": "sun",
+    "oferta": "Public offer",
+    "marketing": "Marketing department",
+    "Cherkasy": {
+      "text1": "Baidy Vyshnevetskyi 48, Cherkasy"
+    }
+  },
+  "Footer": {
+    "home": "home",
+    "about": "About us",
+    "masters": "Masters",
+    "services": "Services",
+    "contacts": "Contacts"
+  }
+}
