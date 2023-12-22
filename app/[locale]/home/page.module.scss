@@ -26,11 +26,11 @@
   &:nth-child(1){
     background: url('/image/poltava/poltava.jpg') no-repeat center center/cover;
   }
-  &:nth-child(3){
+  &:nth-child(2){
     background: url('/image/cherkasy/cherkasy.jpg') no-repeat center center/cover;
   }
   &:nth-child(1),
-  &:nth-child(3) {
+  &:nth-child(2) {
     &::before {
       content: "";
       position: absolute;

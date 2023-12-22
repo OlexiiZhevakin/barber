@@ -17,9 +17,6 @@ const HomePage = () => {
                 Полтава
               </Link>
             </div>
-            <Link className={styles.logo} href="/">
-              <Image src="/image/header-logo.svg" alt="Логотип барершопу Old Dutch" width={434} height={480} priority/>
-            </Link>
             <div className={styles.item}>
               <Link className={styles.link} href="/cherkasy">
                 Черкаси
