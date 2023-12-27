@@ -12,6 +12,7 @@ import { useTranslations } from 'next-intl';
 const HomePage = () => {
   const t = useTranslations('Masters');
   const c = useTranslations('Masters.Cherkasy');
+  const g = useTranslations('Gallery');
 
   const masters = masterData.map(master => ({
     ...master,
@@ -23,7 +24,7 @@ const HomePage = () => {
       <About />
       <Masters btn={t('btn')} title={t('title')} masters={masters} />
       <Services/>
-      <Gallery/>
+      <Gallery title={g('title')}/>
       <Contacts/>
     </>
   )

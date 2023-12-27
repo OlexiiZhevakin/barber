@@ -38,7 +38,9 @@ const Header = () => {
           </Link>
           
           <div className={styles.lang}>
-            <SwichLang/>
+            <div className={styles.langDesctop}>
+              <SwichLang />
+            </div>
             <Link href='tel:00000000'>
               <Image className={styles.phone} src='/image/phone.svg' alt='Кнопка телефона' width={40} height={40} />
             </Link>
@@ -59,13 +61,15 @@ const Header = () => {
               <Link className={styles.link} href="#services" onClick={closeMenu}>Послуги</Link>
             </li>
             <li className={styles.item}>
-              <Link className={styles.link} href="#rules" onClick={closeMenu}>Правила закладу</Link>
+              <Link className={styles.link} href="#gallery" onClick={closeMenu}>Галерея</Link>
             </li>
             <li className={styles.item}>
               <Link className={styles.link} href="#contacts" onClick={closeMenu}>Контакти</Link>
             </li>
           </ul>
-
+            <div className={styles.langMobile}>
+              <SwichLang/>
+            </div>
         </nav>
 
       </div>

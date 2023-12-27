@@ -15,6 +15,10 @@
   justify-content: space-between;
 }
 
+.langMobile{
+  display: none;
+}
+
 // .logo {
 //   position: absolute;
 //   top: 95%;
@@ -160,6 +164,17 @@
       width: 40px;
     }
   }
+  .langDesctop{
+    display: none;
+  }
+  .langMobile{
+    display: block;
+  }
+
+  .menu{
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -185,6 +200,19 @@
   .menu{
     width: 100%;
   }
+
+  .langDesctop {
+    display: none;
+  }
+
+  .langMobile {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -208,5 +236,17 @@
   }
   .menu {
     width: 100%;
+  }
+  .langDesctop {
+    display: none;
+  }
+
+  .langMobile {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 30px;
   }
 }
